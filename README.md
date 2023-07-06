@@ -89,7 +89,6 @@ Note from the output of the netstat command and the inability to read "/etc/shad
 
 ![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/1fcd003f-795e-421f-abcd-b994fd24acc9)
 
-![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/82545626-c533-417f-9d3e-8f2a7a468573)
 
 ![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/9fc76fc6-7a53-4743-b63e-3122fcc31e79)
 
