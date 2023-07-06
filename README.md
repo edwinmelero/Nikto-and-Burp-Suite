@@ -92,5 +92,30 @@ Note from the output of the netstat command and the inability to read "/etc/shad
 
 ![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/9fc76fc6-7a53-4743-b63e-3122fcc31e79)
 
+
 # Submit Fuzzed Input
 
+![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/96503022-0ea3-4d31-b277-95238fe501a6)
+
+
+![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/ad10f6ab-2234-4265-9df0-59d147386f9f)
+
+![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/2c919474-cc2d-470f-a4a1-08b8bd5ba3ca)
+
+Click the Payloads tab. Click the Load button then browse to select /usr/share/wordlists/wfuzz/injections/SQL.txt
+
+![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/e79971ae-746e-4d6c-a5ff-63f329fffccc)
+
+Click the Start Attack button. Click OK to confirm the prompt.
+
+![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/dd909bed-f986-463b-b5d6-3dbd7a8b8356)
+
+Sort the output by the Length column and look for a response larger than 4868 bytes.
+
+You should find some using the OR keyword have returned a number of rows. As with the command injection, this response tells us that the SQL statement being executed by the web app code can be modified by what we enter into the input box.
+
+![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/529cb93b-d522-4358-a638-8d71ec3bb231)
+
+![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/aab5c1c7-6265-433f-b6b7-cad00946e671)
+
+![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/0e436e02-bc36-4acc-b9a9-97a2c3b3d482)
