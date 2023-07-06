@@ -1,4 +1,4 @@
-# Burp-Suite
+# Nikto and Burp-Suite
 
 
 # Scan a Web Server
