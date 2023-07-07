@@ -103,6 +103,9 @@ Note from the output of the netstat command and the inability to read "/etc/shad
 
 # Submit Fuzzed Input
 
+While inventing commands to throw at the misbehaving input box is fun for a while, you might want to adopt a more structured approach. You can use Burp as a fuzzer, to automate the testing of how the application handles different strings. For this exercise, we will switch to looking at SQL injection vulnerabilities.
+
+
 ![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/96503022-0ea3-4d31-b277-95238fe501a6)
 
 
@@ -124,6 +127,13 @@ You should find some using the OR keyword have returned a number of rows. As wit
 
 ![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/529cb93b-d522-4358-a638-8d71ec3bb231)
 
+# Run an Application Vulnerability Scanner
+You could investigate further by appending SQL statements to the input to see what you can discover but as with most common types of vulnerability, there is a tool—SQLmap (sqlmap.org)—to automate this process, or at least its initial stages.
+
 ![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/aab5c1c7-6265-433f-b6b7-cad00946e671)
+
+
+# Review Vulnerable Code
+Having proven vulnerabilities, we need to determine what mitigation options are suitable. In most cases this will involve patching and testing the application with improved code. Compare two code versions to see how the SQL vulnerability could be dealt with by improved input validation.
 
 ![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/0e436e02-bc36-4acc-b9a9-97a2c3b3d482)
