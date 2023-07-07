@@ -3,6 +3,8 @@
 
 # Scan a Web Server
 
+Scan the root directory of the web server and identify any significant vulnerabilities.
+
 ![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/6f04d67f-1e39-49ec-8c8e-d953fc6b8c0a)
 
 
@@ -20,6 +22,8 @@ firefox /root/Downloads/dvwa.htm
 
 # Configure an Interception Proxy
 
+Configure the browser to use Burpsuite as an interception proxy.
+
 ![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/8a5d1490-0019-45f4-a5ad-2e825222b820)
 
 
@@ -29,6 +33,8 @@ firefox /root/Downloads/dvwa.htm
 
 
 # Inspect Session and Header Data
+
+An interception proxy like Burpsuite can be used to monitor and record web sessions. You can inspect (and modify) the data that the server and browser exchange as headers, cookies, and form field submissions.
 
 ![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/cd6a2551-3ffb-4894-9f10-c9d7d80bdd19)
 
@@ -46,6 +52,8 @@ Credentials and session information must be protected by encryption when they ar
 
 
 # Test Command Injection
+
+Command injection means passing shell commands to the underlying OS via an unsecure form or API. Test a form for command execution vulnerabilities.
 
 ![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/930055f5-1c54-4a63-8919-d7941fbf652c)
 
