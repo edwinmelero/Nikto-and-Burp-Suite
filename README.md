@@ -134,6 +134,6 @@ You could investigate further by appending SQL statements to the input to see wh
 
 
 # Review Vulnerable Code
-Having proven vulnerabilities, we need to determine what mitigation options are suitable. In most cases this will involve patching and testing the application with improved code. Compare two code versions to see how the SQL vulnerability could be dealt with by improved input validation.
+Having proven vulnerabilities, we need to determine what mitigation options are suitable. In most cases this will involve patching and testing the application with improved code. This how the SQL vulnerability could be dealt with by improved input validation.
 
 ![image](https://github.com/itzyezz/Burp-Suite/assets/105263523/0e436e02-bc36-4acc-b9a9-97a2c3b3d482)
